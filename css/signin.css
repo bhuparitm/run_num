@@ -1,0 +1,27 @@
+.login-option {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-signin {
+	max-width: 400px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin-options {
+	padding-top: 16px;
+}
+
+.form-signin-forgot {
+	float: left;
+}
+
+.form-signin-signup {
+	float: right;
+}
+
+div .form-group {
+	padding: 0px;
+	margin-bottom: 12px !important;
+}

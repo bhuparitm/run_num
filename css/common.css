@@ -1,0 +1,236 @@
+html {
+	height: 100%;
+	min-height: 750px;
+	min-width: 700px;
+}
+
+body {
+	background-image: linear-gradient(119deg, #159bd9 45%, #346bb3);
+	height: 100%;
+}
+
+.white-text {
+	color: white;
+}
+
+.body-wrapper {
+	display: table;
+	min-height: 100%;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto -18px;
+}
+
+.logo-wrapper {
+	z-index: -1;
+	position: absolute;
+	display: table;
+	height: 100%;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.logo-smart {
+	z-index: -1;
+	vertical-align: top;
+}
+
+.logo-footer {
+	height: 18px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	bottom: 2px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.logo-footer p {
+	margin: 0px;
+}
+
+.container {
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+form {
+	background-color:#deebf1;
+	border-radius: 5px;
+}
+
+.form-error {
+	color: #d0021b;
+	font-size: 12px;
+}
+
+.form-error p {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.errorless-control {
+	margin-bottom: 12px;
+}
+
+.form-top-label {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.form-heading {
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.form-description {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.form input {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.form-control {
+	position: relative;
+	font-size: 14px;
+	height: auto;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: border-box;
+	border-radius: 1px;
+}
+
+.form-control:focus {
+	z-index: 2;
+	box-shadow: 0 0 0 0.01rem #159bd9;
+}
+
+.field-error {
+	border: solid 1px #d0021b;
+}
+
+.g-recaptcha {
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.custom-checkbox {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div .col {
+	margin-left: 1px;
+	margin-right: 1px;
+	padding: 0px;
+}
+
+div .form-group {
+	padding: 0px;
+	margin: 0px;
+}
+
+.btn-primary {
+	background-color: #159bd9;
+	border-color: #159bd9;
+	padding: 6px;
+}
+
+.btn-primary:disabled {
+	opacity: 0.5;
+	background-color: #159bd9;
+	border-color: #159bd9;
+}
+
+.btn-primary:enabled:hover {
+	opacity: 0.8;
+	background-color: #159bd9;
+}
+
+a {
+	color: #159bd9;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.white-text a {
+	color: white;
+	font-size: 12px;
+}
+
+.custom-control-label {
+	font-size: 14px;
+}
+
+form input[type="checkbox"] {
+	display:none;
+}
+
+form input[type="checkbox"]:disabled {
+	display:none;
+}
+
+form input[type=checkbox] + label {
+	font-size: 14px;
+
+	display: inline-block;
+	object-fit: contain;
+	cursor: pointer;
+	display: inline-block;
+	padding-left: 31px;
+	background: url('../img/lrg-empty.png') no-repeat 0 0;
+	line-height: 29px;
+}
+
+form input[type=checkbox]:checked + label {
+	background: url('../img/lrg-checked.png') no-repeat 0 0;
+}
+
+.spacer {
+	margin-top: 10px;
+}
+
+.password-rule {
+	color: black !important;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.force-width
+	{
+		width: 500px;
+	}
+}
+
+/*
+form input[type="radio"] {
+	display:none;
+}
+
+form input[type=radio] + label {
+	font-size: 14px;
+	display: inline-block;
+	object-fit: contain;
+	cursor: pointer;
+	display: inline-block;
+	padding-left: 31px;
+	background: url('../img/lrg-empty.png') no-repeat 0 0;
+	line-height: 29px;
+}
+
+form input[type=radio]:disabled + label {
+	cursor: default;
+}
+
+form input[type=radio]:checked + label {
+	background: url('../img/lrg-checked.png') no-repeat 0 0;
+}*/
